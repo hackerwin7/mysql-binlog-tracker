@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mysql-binlog-tracker</artifactId>
+        <groupId>com.github.hackerwin7</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mysql-binlog-tracker.tracker</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.hackerwin7</groupId>
+            <artifactId>mysql-binlog-tracker.protocol</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.hackerwin7</groupId>
+            <artifactId>mysql-binlog-tracker.utils</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>oro</groupId>
+            <artifactId>oro</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.hackerwin7</groupId>
+            <artifactId>mysql-binlog-tracker.mysql</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.aviator</groupId>
+            <artifactId>aviator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.hackerwin7</groupId>
+            <artifactId>mysql-binlog-tracker.config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.hackerwin7</groupId>
+            <artifactId>mysql-binlog-tracker.manager</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.hackerwin7</groupId>
+            <artifactId>mysql-binlog-tracker.controller</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.hackerwin7</groupId>
+            <artifactId>mysql-binlog-tracker.pipe</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.hackerwin7</groupId>
+            <artifactId>mysql-binlog-tracker.checkpoint</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
