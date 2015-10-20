@@ -12,6 +12,7 @@ public class MetricsType {
 
     static {
         MoType.put(1, "fetch");
-        MoType.put(2, "")
+        MoType.put(2, "process");
+        //to be continue
     }
 }
